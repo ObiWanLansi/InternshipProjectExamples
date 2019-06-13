@@ -24,11 +24,16 @@ https://de.wikipedia.org/wiki/Caesar-Verschl%C3%BCsselung
 
 ## [File](./File)
 
-https://de.wikipedia.org/wiki/Cal_(Unix)
+Es soll der mögliche Dateitype einer Datei anhand der ersten B-Bytes und nicht anhand der
+Dateierweiterung bestimmt werden.
+
+https://de.wikipedia.org/wiki/File
 
 ---
 
 ## [Tic Tac Toe](./TicTacToe)
+
+Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
 
 https://de.wikipedia.org/wiki/Tic-Tac-Toe
 
@@ -36,11 +41,25 @@ https://de.wikipedia.org/wiki/Tic-Tac-Toe
 
 ## [Vier Gewinnt](./ConnectFour)
 
+Klassisches Kinderspiel welches dann doch eher Oberfächenanteile benötigt.
+
 https://de.wikipedia.org/wiki/Vier_gewinnt
 
 ---
 
 ## [Mühle](./NineMensMorris)
 
+Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
+
 https://de.wikipedia.org/wiki/M%C3%BChle_(Spiel)
+
+---
+
+**Anmerkungen :**
+
+- Bei alle Spielen sollen jeweils nur zwei Benutzer gegeneinander Spielen, es wird kein Computer oder KI als Gegner benötigt.
+- Als Erweiterung bei den Spielen kann natürlich eine Bestenliste eingebaut werden, die Daten dazu
+können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
+- Es sollte zu allen Projekten eine kleine README.md erzeugt werden, mit Hinweisen zur Bedienung, bekannten Issues, mit welcher Programmiersprache / IDE das Projekt bearbeitet / erstellt wurde.
+- Ein kleines UML Diagramm ist nicht verboten
 
