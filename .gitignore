@@ -1,5 +1,4 @@
-﻿################################################################################
-# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
-################################################################################
-
-/Calendar/DotNet/Console/.vs/Calendar/v15/Server/sqlite3
+﻿/Calendar/DotNet/Console/.vs/Calendar/v15/Server/sqlite3
+/Calendar/DotNet/Console/obj
+/Calendar/DotNet/Console/bin/Debug/netcoreapp2.0
+/Calendar/DotNet/Console/.vs/Calendar/v15
