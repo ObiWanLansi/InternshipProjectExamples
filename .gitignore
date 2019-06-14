@@ -1,4 +1,3 @@
-﻿/Calendar/DotNet/Console/.vs/Calendar/v15/Server/sqlite3
-/Calendar/DotNet/Console/obj
-/Calendar/DotNet/Console/bin/Debug/netcoreapp2.0
-/Calendar/DotNet/Console/.vs/Calendar/v15
+﻿.vs
+obj
+bin
