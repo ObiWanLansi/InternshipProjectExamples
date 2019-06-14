@@ -61,5 +61,8 @@ https://de.wikipedia.org/wiki/M%C3%BChle_(Spiel)
 - Als Erweiterung bei den Spielen kann natürlich eine Bestenliste eingebaut werden, die Daten dazu
 können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 - Es sollte zu allen Projekten eine kleine README.md erzeugt werden, mit Hinweisen zur Bedienung, bekannten Issues, mit welcher Programmiersprache / IDE das Projekt bearbeitet / erstellt wurde.
-- Ein kleines UML Diagramm ist nicht verboten
+- Ein kleines UML Diagramm ist nicht verboten.
+- Alle Beispiele sind **"Basic"** und zeigen nur **einen** möglichen Weg zur Umsetzung und Realisierung.
+- Schöner und besser geht bestimmt immer, aber es muss auch einfach bleiben damit es auch Praktikanten verstehen können.
+- Der Beispielcode ist nur auf das nötigste dokumentiert, der Praktikant sollte es natürlich besser machen.
 
