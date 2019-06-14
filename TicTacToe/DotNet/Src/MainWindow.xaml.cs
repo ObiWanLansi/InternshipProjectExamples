@@ -1,7 +1,10 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
+
+
 
 namespace TicTacToe
 {
@@ -10,7 +13,15 @@ namespace TicTacToe
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Player pCurrent = Player.Player1;
+        /// <summary>
+        /// The player one
+        /// </summary>
+        private bool bPlayerOne = true;
+
+        /// <summary>
+        /// The field
+        /// </summary>
+        private SortedDictionary<int, bool?> sdField = new SortedDictionary<int, bool?>();
 
 
         /// <summary>
@@ -19,6 +30,22 @@ namespace TicTacToe
         public MainWindow()
         {
             InitializeComponent();
+
+            for (int iCounter = 0; iCounter < 9; iCounter++)
+            {
+                this.sdField.Add(iCounter, null);
+            }
+        }
+
+
+        /// <summary>
+        /// Checks the winner is avaible.
+        /// </summary>
+        /// <returns></returns>
+        private bool CheckWinnerIsAvaible()
+        {
+            //TODO MessageBox
+            return false;
         }
 
 
@@ -31,33 +58,33 @@ namespace TicTacToe
         {
             Button btn = sender as Button;
 
+            this.sdField[int.Parse(btn.Tag as string)] = this.bPlayerOne;
 
-            switch (this.pCurrent)
+            // Setzen der Spieler Icons ...
+            btn.Content = this.bPlayerOne ? (Shape)new Ellipse
             {
-                case Player.Player1:
-                    btn.Content = new Ellipse
-                    {
-                        Width = btn.ActualWidth - 10,
-                        Height = btn.ActualHeight - 10,
-                        Stroke = Brushes.Black,
-                        Fill = Brushes.Blue
-                    };
-                    this.pCurrent = Player.Player2;
-                    break;
+                Width = btn.ActualWidth - 10,
+                Height = btn.ActualHeight - 10,
+                Stroke = Brushes.Black,
+                Fill = Brushes.Blue
+            } : new Rectangle
+            {
+                Width = btn.ActualWidth - 10,
+                Height = btn.ActualHeight - 10,
+                Stroke = Brushes.Black,
+                Fill = Brushes.Red
+            };
 
-                case Player.Player2:
-                    btn.Content = new Rectangle
-                    {
-                        Width = btn.ActualWidth - 10,
-                        Height = btn.ActualHeight - 10,
-                        Stroke = Brushes.Black,
-                        Fill = Brushes.Red
-                    };
-                    this.pCurrent = Player.Player1;
-                    break;
+            // Check ob jemand schon gewonnen hat und dann einfach beenden ;-) ...
+            if (CheckWinnerIsAvaible() == true)
+            {
+                Close();
             }
 
+            this.bPlayerOne = !this.bPlayerOne;
+
             btn.IsEnabled = false;
+
             e.Handled = true;
         }
 
