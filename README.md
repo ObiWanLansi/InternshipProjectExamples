@@ -73,3 +73,26 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 - Schöner und besser geht bestimmt immer, aber es muss auch einfach bleiben damit es auch Praktikanten verstehen können.
 - Der Beispielcode ist nur auf das nötigste dokumentiert, der Praktikant sollte es natürlich besser machen.
 
+---
+
+**Übersicht Sprachen / Projekte:**
+
+|Sprache     |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldwechsler|Mühle|Tic Tac Toe|
+|------------|:-------------------:|:------:|:------:|:----------:|:----------:|:---:|:---------:|
+|Python      |&#10060;             |&#10060;|&#10160;|&#10060;    |&#10160;    |&#10060;|&#10060;|
+|Ruby        |&#9989;              |&#10060;|&#10060;|&#10060;    |&#10060;    |&#10060;|&#10060;|
+|.net Core   |&#10060;             |&#10160;|&#10060;|&#10060;    |&#10060;    |&#10060;|&#10060;|
+|.net WPF    |&#10060;             |&#10160;|&#10060;|&#10060;    |&#10060;    |&#10068;|&#9989; |
+|Java Console|&#9989;              |&#10060;|&#10060;|&#10060;    |&#10160;    |&#10060;|&#10060;|
+|Java SWING  |&#10060;             |&#10060;|&#10060;|&#10160;    |&#10060;    |&#10068;|&#10160;|
+|C++ Console |&#10060;             |&#10060;|&#10160;|&#10060;    |&#10060;    |&#10060;|&#10060;|
+
+
+**Legende:**
+
+|Zeichen|Beschreibung|
+|:-:|-|
+|&#9989;|Ist fertig umgesetzt|
+|&#10160;|Wird umgesetzt|
+|&#10060;|Wird nicht umgesetzt|
+|&#10068;|Das große Fragezeichen|
