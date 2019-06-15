@@ -22,7 +22,7 @@ https://de.wikipedia.org/wiki/Caesar-Verschl%C3%BCsselung
 
 ---
 
-## [File](./File)
+## [FileType](./FileType)
 
 Es soll der mögliche Dateityp einer Datei anhand der ersten N-Bytes und nicht anhand der
 Dateierweiterung bestimmt werden.

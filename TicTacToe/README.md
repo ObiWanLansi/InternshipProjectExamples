@@ -1,4 +1,4 @@
-# TicTacToe
+# Tic Tac Toe
 
 Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
 

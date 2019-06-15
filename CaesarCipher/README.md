@@ -1,4 +1,4 @@
-# CaesarCipher
+# Cäsar Verschlüsselung
 
 Es soll eine kleine Cäsar Verschlüsselung implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleinen GUI möglich.
 

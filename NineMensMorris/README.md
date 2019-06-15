@@ -1,4 +1,4 @@
-# NineMensMorris
+# Mühle
 
 Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
 

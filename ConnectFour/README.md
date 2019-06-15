@@ -1,4 +1,4 @@
-# ConnectFour
+# Vier Gewinnt
 
 Klassisches Kinderspiel welches dann doch eher Oberfächenanteile benötigt.
 
