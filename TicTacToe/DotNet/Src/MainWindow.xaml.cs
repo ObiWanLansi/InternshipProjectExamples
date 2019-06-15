@@ -5,6 +5,13 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 
+/**
+ * Felidindexe:
+ * 0 1 2
+ * 3 4 5
+ * 6 7 8
+ */
+
 
 namespace TicTacToe
 {
@@ -21,7 +28,28 @@ namespace TicTacToe
         /// <summary>
         /// The field
         /// </summary>
-        private SortedDictionary<int, bool?> sdField = new SortedDictionary<int, bool?>();
+        private readonly SortedDictionary<int, bool?> sdField = new SortedDictionary<int, bool?>();
+
+
+        /// <summary>
+        /// The winnercombinations
+        /// </summary>
+        private readonly List<int[]> lWinnerCombinations = new List<int[]>
+        {
+            // Alle Waagerechten
+            { new [] { 0 , 1 , 2 } },
+            { new [] { 3 , 4 , 5 } },
+            { new [] { 6 , 7 , 8 } },
+
+            // Alle Senkrechten
+            { new [] { 0 , 3 , 6 } },
+            { new [] { 1 , 4 , 7 } },
+            { new [] { 2 , 5 , 8 } },
+
+            // Die zwei Diagonalen
+            { new [] { 0 , 4 , 8 } },
+            { new [] { 2 , 4 , 6 } }
+        };
 
 
         /// <summary>
@@ -42,10 +70,22 @@ namespace TicTacToe
         /// Checks the winner is avaible.
         /// </summary>
         /// <returns></returns>
-        private bool CheckWinnerIsAvaible()
+        private void CheckWinnerIsAvaible()
         {
-            //TODO MessageBox
-            return false;
+            foreach (int[] winner_combination in this.lWinnerCombinations)
+            {
+                // Wenn eines der Felder noch null (also nicht gesetzt ist brauchen wir nicht weiter zu machen ...
+                if (this.sdField[winner_combination[0]] == null || this.sdField[winner_combination[1]] == null || this.sdField[winner_combination[2]] == null)
+                {
+                    continue;
+                }
+
+                if (this.sdField[winner_combination[0]].Equals(this.sdField[winner_combination[1]]) && this.sdField[winner_combination[0]].Equals(this.sdField[winner_combination[2]]))
+                {
+                    MessageBox.Show(string.Format("Spieler {0} hat gewonnen!", this.sdField[winner_combination[0]].Value ? "1" : "2"));
+                    Close();
+                }
+            }
         }
 
 
@@ -75,11 +115,7 @@ namespace TicTacToe
                 Fill = Brushes.Red
             };
 
-            // Check ob jemand schon gewonnen hat und dann einfach beenden ;-) ...
-            if (CheckWinnerIsAvaible() == true)
-            {
-                Close();
-            }
+            CheckWinnerIsAvaible();
 
             this.bPlayerOne = !this.bPlayerOne;
 
