@@ -1,14 +1,6 @@
 # File
 
-The Folder File Contains ...
+Es soll der mögliche Dateityp einer Datei anhand der ersten B-Bytes und nicht anhand der
+Dateierweiterung bestimmt werden.
 
----
-
-## [Cpp](./Cpp)
-
----
-
-## [Python](./Python)
-
----
-
+https://de.wikipedia.org/wiki/File

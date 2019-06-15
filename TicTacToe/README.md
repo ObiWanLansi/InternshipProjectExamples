@@ -1,14 +1,5 @@
 # TicTacToe
 
-The Folder TicTacToe Contains ...
+Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
 
----
-
-## [DotNet](./DotNet)
-
----
-
-## [Java](./Java)
-
----
-
+https://de.wikipedia.org/wiki/Tic-Tac-Toe

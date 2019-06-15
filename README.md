@@ -6,7 +6,7 @@ Hier sind lauter kleine Projekte für Praktikanten in dem und aus dem Bereich So
 
 ## [Kalendar](./Calendar)
 
-Es soll eine kleine Cäsar Verschlüsselung implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleine GUI möglich.
+Es soll eine kleine Kalendarausgabe implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleinen GUI möglich.
 
 https://de.wikipedia.org/wiki/Cal_(Unix)
 
@@ -14,7 +14,7 @@ https://de.wikipedia.org/wiki/Cal_(Unix)
 
 ## [Cäsar Verschlüsselung](./CaesarCipher)
 
-Es soll eine kleine Cäsar Verschlüsselung implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleine GUI möglich.
+Es soll eine kleine Cäsar Verschlüsselung implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleinen GUI möglich.
 
 Als mögliche Erweiterung kann man die Verschlüsselung nicht nur für die 26 (Groß-) Buchstaben umsetzten, sondern für die komplette [ASCII Tabelle](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange#ASCII-Tabelle).
 
@@ -24,10 +24,17 @@ https://de.wikipedia.org/wiki/Caesar-Verschl%C3%BCsselung
 
 ## [File](./File)
 
-Es soll der mögliche Dateitype einer Datei anhand der ersten B-Bytes und nicht anhand der
+Es soll der mögliche Dateityp einer Datei anhand der ersten N-Bytes und nicht anhand der
 Dateierweiterung bestimmt werden.
 
 https://de.wikipedia.org/wiki/File
+
+---
+
+## [Geldwechsler](./Geldwechsler)
+
+Es soll ein kleiner Geldwechsler realisert werden der als ein Input einen Betrag erhält und als Ausgabe
+die Auflistung aller benötigten Scheine, Münze und deren Anzahl ausgeben soll.
 
 ---
 
