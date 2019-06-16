@@ -3,3 +3,5 @@ obj
 bin
 
 \.vscode/
+
+FileType/Cpp/FileType\.layout
