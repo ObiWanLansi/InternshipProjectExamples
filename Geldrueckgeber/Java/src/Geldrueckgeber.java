@@ -1,15 +1,20 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 
 class BillOrCoin {
 
-	final public int iValue;
-	final public String strDisplayName;
+	final public int Value;
+	final public String DisplayName;
+	public int Count = 0;
 
 	public BillOrCoin(int iValue, String strDisplayName) {
 
-		this.iValue = iValue;
-		this.strDisplayName = strDisplayName;
+		this.Value = iValue;
+		this.DisplayName = strDisplayName;
+	}
+
+	@Override
+	public String toString() {
+		return DisplayName;
 	}
 }
 
@@ -51,8 +56,27 @@ public class Geldrueckgeber {
 	 * @param fAmount
 	 * @return
 	 */
-	private static HashMap<BillOrCoin, Integer> getBillsAndCoinsCount(float fAmount) {
-		return null;
+	private static ArrayList<BillOrCoin> getBillsAndCoinsCount(float fAmount) {
+
+		// Umrechnen in einheitliche Basis Cent
+		int iAmount = (int) (fAmount * 100);
+
+		ArrayList<BillOrCoin> lResult = new ArrayList<BillOrCoin>();
+
+		for (BillOrCoin boc : lBillsAndCoins) {
+
+			int iCount = (int) (iAmount / boc.Value);
+
+			if (iCount > 0) {
+
+				boc.Count = iCount;
+				lResult.add(boc);
+			}
+
+			iAmount = iAmount - (iCount * boc.Value);
+		}
+
+		return lResult;
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -63,13 +87,18 @@ public class Geldrueckgeber {
 	 */
 	public static void main(String[] args) {
 
-		float fAmount = 88.88f;
+//		float fAmount = 888.88f;
+//		float fAmount = 543.21f;
+		float fAmount = 123.45f;
 
 		var result = getBillsAndCoinsCount(fAmount);
 
-		for (BillOrCoin boc : result.keySet()) {
+		System.out.println(String.format("Betrag: %s €", fAmount));
 
-			System.out.println(String.format("{0}: {1}", boc.strDisplayName, result.get(boc)));
+		for (BillOrCoin boc : result) {
+
+			System.out.println(
+					String.format("%-20s: %s (%5s) €", boc.DisplayName, boc.Count, (float)(boc.Count * boc.Value) / 100));
 		}
 	}
 }
