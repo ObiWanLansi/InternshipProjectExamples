@@ -1,7 +1,7 @@
-# Cäsar Verschlüsselung
+# CÃ¤sar VerschlÃ¼sselung
 
-Es soll eine kleine Cäsar Verschlüsselung implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleinen GUI möglich.
+Es soll eine kleine CÃ¤sar VerschlÃ¼sselung implementiert werden. Dies kann eine reine Konsolenbasierte Anwendung sein, ist aber auch mit einer kleinen GUI mÃ¶glich.
 
-Als mögliche Erweiterung kann man die Verschlüsselung nicht nur für die 26 (Groß-) Buchstaben umsetzten, sondern für die komplette [ASCII Tabelle](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange#ASCII-Tabelle).
+Als mÃ¶gliche Erweiterung kann man die VerschlÃ¼sselung nicht nur fÃ¼r die 26 (GroÃŸ-) Buchstaben umsetzten, sondern fÃ¼r die komplette [ASCII Tabelle](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange#ASCII-Tabelle).
 
 https://de.wikipedia.org/wiki/Caesar-Verschl%C3%BCsselung

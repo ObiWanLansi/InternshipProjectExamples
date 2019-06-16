@@ -1,5 +1,5 @@
 # Vier Gewinnt
 
-Klassisches Kinderspiel welches dann doch eher Oberfächenanteile benötigt.
+Klassisches Kinderspiel welches dann doch eher OberfÃ¤chenanteile benÃ¶tigt.
 
 https://de.wikipedia.org/wiki/Vier_gewinnt

@@ -1,5 +1,5 @@
-# Mühle
+# MÃ¼hle
 
-Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
+Klassisches Brettspiel welches dann doch eher OberfÃ¤chenanteile benÃ¶tigt.
 
 https://de.wikipedia.org/wiki/M%C3%BChle_(Spiel)
