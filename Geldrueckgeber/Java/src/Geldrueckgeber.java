@@ -71,9 +71,9 @@ public class Geldrueckgeber {
 
 				boc.Count = iCount;
 				lResult.add(boc);
-			}
 
-			iAmount = iAmount - (iCount * boc.Value);
+				iAmount = iAmount - (iCount * boc.Value);
+			}
 		}
 
 		return lResult;
