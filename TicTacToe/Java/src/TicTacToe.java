@@ -122,8 +122,8 @@ public class TicTacToe extends JFrame {
 	private void checkWinnerIsAvaible() {
 
 //		JOptionPane.showMessageDialog(this, "Here I'am!", "TicTacToe", JOptionPane.INFORMATION_MESSAGE);
-		for(int [] winner_combination:lWinnerCombinations) {
-			
+		for (int[] winner_combination : lWinnerCombinations) {
+
 		}
 	}
 
