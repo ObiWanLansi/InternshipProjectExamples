@@ -97,8 +97,7 @@ public class Geldrueckgeber {
 
 		for (BillOrCoin boc : result) {
 
-			System.out.println(
-					String.format("%-20s: %s (%5s) €", boc.DisplayName, boc.Count, (float)(boc.Count * boc.Value) / 100));
+			System.out.println(String.format("%-20s: %s (%5s) €", boc.DisplayName, boc.Count, (float) (boc.Count * boc.Value) / 100));
 		}
 	}
 }
