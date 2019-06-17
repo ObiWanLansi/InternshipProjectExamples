@@ -10,14 +10,18 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
 
+/**
+ * 
+ * @author ObiWanLansi
+ *
+ */
 public class TicTacToe extends JFrame {
 
-	/// <summary>
-	/// The winnercombinations
-	/// </summary>
+	/**
+	 * The winnercombinations
+	 */
 	private final ArrayList<int[]> lWinnerCombinations = new ArrayList<int[]>(8);
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -97,8 +101,8 @@ public class TicTacToe extends JFrame {
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	/**
-	*
-	*/
+	 *
+	 */
 	private void quit() {
 
 		System.exit(0);
@@ -121,6 +125,7 @@ public class TicTacToe extends JFrame {
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	/**
+	 * Haupteinstiegspunkt der Anwendung.
 	 * 
 	 * @param args
 	 */

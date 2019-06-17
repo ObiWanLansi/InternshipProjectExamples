@@ -1,9 +1,16 @@
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author ObiWanLansi
+ *
+ */
 class BillOrCoin {
 
 	final public int Value;
+
 	final public String DisplayName;
+
 	public int Count = 0;
 
 	public BillOrCoin(int iValue, String strDisplayName) {
@@ -18,6 +25,11 @@ class BillOrCoin {
 	}
 }
 
+/**
+ * 
+ * @author ObiWanLansi
+ *
+ */
 public class Geldrueckgeber {
 
 	/**
@@ -82,7 +94,7 @@ public class Geldrueckgeber {
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	/**
-	 * 
+	 * Haupteinstiegspunkt der Anwendung. 
 	 * @param args
 	 */
 	public static void main(String[] args) {
