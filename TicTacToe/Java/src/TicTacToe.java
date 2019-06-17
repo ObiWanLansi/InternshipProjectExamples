@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
+import java.util.Hashtable;
 
 import javax.swing.JFrame;
 
@@ -20,9 +21,19 @@ import javax.swing.JFrame;
 public class TicTacToe extends JFrame {
 
 	/**
-	 * The winnercombinations
+	 * The winner combinations.
 	 */
 	private final ArrayList<int[]> lWinnerCombinations = new ArrayList<int[]>(8);
+
+	/**
+	 * The current player.
+	 */
+	private Player pCurrent = Player.One;
+
+	/**
+	 * Wich field from which player.
+	 */
+	private Hashtable<Integer, Player> htFieldPlayer = new Hashtable<Integer, Player>();
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -65,6 +76,8 @@ public class TicTacToe extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent arg) {
+
+				setFieldForPlayer((TicTacToeButton) arg.getSource());
 				checkWinnerIsAvaible();
 			}
 		};
@@ -86,16 +99,32 @@ public class TicTacToe extends JFrame {
 		// ---------------------------------------------------------------------
 
 		setVisible(true);
-
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	/**
 	 * 
+	 * @param source
+	 */
+	private void setFieldForPlayer(TicTacToeButton source) {
+
+		source.setPlayer(pCurrent);
+		source.setEnabled(false);
+		htFieldPlayer.put(source.getFieldIndex(), pCurrent);
+
+		pCurrent = pCurrent == Player.One ? Player.Two : Player.One;
+	}
+
+	/**
+	 * 
 	 */
 	private void checkWinnerIsAvaible() {
 
+//		JOptionPane.showMessageDialog(this, "Here I'am!", "TicTacToe", JOptionPane.INFORMATION_MESSAGE);
+		for(int [] winner_combination:lWinnerCombinations) {
+			
+		}
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

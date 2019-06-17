@@ -1,6 +1,11 @@
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.Shape;
 import java.awt.event.ActionListener;
+import java.awt.geom.Ellipse2D;
 
 import javax.swing.JButton;
 
@@ -14,30 +19,40 @@ public class TicTacToeButton extends JButton {
 	/**
 	 * 
 	 */
-	final private int iIndex;
+	final private int iFieldIndex;
 
 	/**
 	 * 
 	 */
-	final private ActionListener al;
+	private Player p = null;
 
 	/**
 	 * 
-	 * @param iIndex
+	 * @param iFieldIndex
 	 * @param al
 	 */
-	public TicTacToeButton(int iIndex, ActionListener al) {
+	public TicTacToeButton(int iFieldIndex, ActionListener al) {
 
-		this.iIndex = iIndex;
-		this.al = al;
+		this.iFieldIndex = iFieldIndex;
+
+		this.addActionListener(al);
 	}
 
 	/**
 	 * 
 	 * @return
 	 */
-	public int getIndex() {
-		return iIndex;
+	public int getFieldIndex() {
+		return iFieldIndex;
+	}
+
+	/**
+	 * 
+	 * @param p
+	 */
+	public void setPlayer(Player p) {
+		this.p = p;
+		repaint();
 	}
 
 	/**
@@ -49,7 +64,28 @@ public class TicTacToeButton extends JButton {
 
 		Graphics2D g2d = (Graphics2D) g;
 
-//	       g2d.setPaint(new GradientPaint(0,0,cBackgroundLeft,getWidth(),getHeight(),cBackgroundRight));
-//	       g2d.fill( g.getClip() );
+		Dimension dim = getSize();
+
+		if (p == null) {
+
+			return;
+		}
+
+		Shape s = null;
+
+		if (p == Player.One) {
+
+			g2d.setPaint(Color.BLUE);
+
+			s = new Rectangle(5, 5, dim.width - 10, dim.height - 10);
+
+		} else {
+
+			g2d.setPaint(Color.RED);
+
+			s = new Ellipse2D.Double(5, 5, dim.width - 10, dim.height - 10);
+		}
+
+		g2d.fill(s);
 	}
 }
