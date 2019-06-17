@@ -71,13 +71,13 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 
 |Sprache     |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Tic Tac Toe|
 |------------|:-------------------:|:------:|:------:|:----------:|:-----------:|:---------:|
-|Python      |&#10060;             |&#10060;|&#10160;|&#10060;    |&#9989;      |&#10060;   |
+|Python      |&#10060;             |&#10060;|&#9925; |&#10060;    |&#9989;      |&#10060;   |
 |Ruby        |&#9989;              |&#10060;|&#10060;|&#10060;    |&#10060;     |&#10060;   |
 |.net Core   |&#10060;             |&#9989; |&#10060;|&#10060;    |&#10060;     |&#10060;   |
 |.net WPF    |&#10060;             |&#9989; |&#10060;|&#10060;    |&#10060;     |&#9989;    |
 |Java Console|&#9989;              |&#10060;|&#10060;|&#10060;    |&#9989;      |&#10060;   |
-|Java SWING  |&#10060;             |&#10060;|&#10060;|&#10160;    |&#10060;     |&#10160;   |
-|C++ Console |&#10060;             |&#10060;|&#10160;|&#10060;    |&#10060;     |&#10060;   |
+|Java SWING  |&#10060;             |&#10060;|&#10060;|&#9925;     |&#10060;     |&#8986;    |
+|C++ Console |&#10060;             |&#10060;|&#8986; |&#10060;    |&#10060;     |&#10060;   |
 
 
 **Legende:**
@@ -85,6 +85,14 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 |Zeichen|Beschreibung|
 |:-:|-|
 |&#9989;|Ist fertig umgesetzt|
-|&#10160;|Wird umgesetzt|
+|&#8986;|Umsetzung hat begonnen|
+|&#9925;|Wird (noch) umgesetzt|
 |&#10060;|Wird nicht umgesetzt|
-|&#10068;|Das große Fragezeichen|
+
+
+---
+
+## Backlog
+
+- Geldrückgeber in Octave oder R
+- Kalendar in C++/QT
