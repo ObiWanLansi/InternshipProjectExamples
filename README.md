@@ -54,14 +54,6 @@ https://de.wikipedia.org/wiki/Vier_gewinnt
 
 ---
 
-## [Mühle](./NineMensMorris)
-
-Klassisches Brettspiel welches dann doch eher Oberfächenanteile benötigt.
-
-https://de.wikipedia.org/wiki/M%C3%BChle_(Spiel)
-
----
-
 **Anmerkungen :**
 
 - Bei alle Spielen sollen jeweils nur zwei Benutzer gegeneinander Spielen, es wird kein Computer oder KI als Gegner benötigt.
@@ -77,15 +69,15 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 
 **Übersicht Sprachen / Projekte:**
 
-|Sprache     |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Mühle   |Tic Tac Toe|
-|------------|:-------------------:|:------:|:------:|:----------:|:-----------:|:------:|:---------:|
-|Python      |&#10060;             |&#10060;|&#10160;|&#10060;    |&#9989;      |&#10060;|&#10060;   |
-|Ruby        |&#9989;              |&#10060;|&#10060;|&#10060;    |&#10060;     |&#10060;|&#10060;   |
-|.net Core   |&#10060;             |&#9989; |&#10060;|&#10060;    |&#10060;     |&#10060;|&#10060;   |
-|.net WPF    |&#10060;             |&#9989; |&#10060;|&#10060;    |&#10060;     |&#10068;|&#9989;    |
-|Java Console|&#9989;              |&#10060;|&#10060;|&#10060;    |&#9989;      |&#10060;|&#10060;   |
-|Java SWING  |&#10060;             |&#10060;|&#10060;|&#10160;    |&#10060;     |&#10068;|&#10160;   |
-|C++ Console |&#10060;             |&#10060;|&#10160;|&#10060;    |&#10060;     |&#10060;|&#10060;   |
+|Sprache     |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Tic Tac Toe|
+|------------|:-------------------:|:------:|:------:|:----------:|:-----------:|:---------:|
+|Python      |&#10060;             |&#10060;|&#10160;|&#10060;    |&#9989;      |&#10060;   |
+|Ruby        |&#9989;              |&#10060;|&#10060;|&#10060;    |&#10060;     |&#10060;   |
+|.net Core   |&#10060;             |&#9989; |&#10060;|&#10060;    |&#10060;     |&#10060;   |
+|.net WPF    |&#10060;             |&#9989; |&#10060;|&#10060;    |&#10060;     |&#9989;    |
+|Java Console|&#9989;              |&#10060;|&#10060;|&#10060;    |&#9989;      |&#10060;   |
+|Java SWING  |&#10060;             |&#10060;|&#10060;|&#10160;    |&#10060;     |&#10160;   |
+|C++ Console |&#10060;             |&#10060;|&#10160;|&#10060;    |&#10060;     |&#10060;   |
 
 
 **Legende:**
