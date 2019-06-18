@@ -9,6 +9,7 @@ https://de.wikipedia.org/wiki/Cal_(Unix)
 # DotNet Core
 
 ```console
+lansi@Jupiter:~/InternshipProjectExamples/Calendar/DotNet/Console$ dotnet run
 ┌───────────────────────────┐
 │                 Juni 2019 │
 ├────┬──────────────────────┤
