@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  * 
@@ -121,9 +122,20 @@ public class TicTacToe extends JFrame {
 	 */
 	private void checkWinnerIsAvaible() {
 
-//		JOptionPane.showMessageDialog(this, "Here I'am!", "TicTacToe", JOptionPane.INFORMATION_MESSAGE);
 		for (int[] winner_combination : lWinnerCombinations) {
 
+			if (htFieldPlayer.get(winner_combination[0]) == null || htFieldPlayer.get(winner_combination[1]) == null || htFieldPlayer.get(winner_combination[2]) == null) {
+				continue;
+			}
+
+			if (htFieldPlayer.get(winner_combination[0]).equals(htFieldPlayer.get(winner_combination[1]))
+					&& htFieldPlayer.get(winner_combination[0]).equals(htFieldPlayer.get(winner_combination[2]))) {
+
+				JOptionPane.showMessageDialog(this, String.format("Spieler %s hat gewonnen!", htFieldPlayer.get(winner_combination[0])), "Tic Tac Toe",
+						JOptionPane.INFORMATION_MESSAGE);
+			
+				quit();
+			}
 		}
 	}
 

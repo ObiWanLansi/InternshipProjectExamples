@@ -44,7 +44,7 @@ def getBillsAndCoinsCount(amount):
 
 ########################################################################################################################
 
-getBillsAndCoinsCount(123.45)
+#getBillsAndCoinsCount(123.45)
 getBillsAndCoinsCount(543.21)
-getBillsAndCoinsCount(8888.88)
-getBillsAndCoinsCount(3333.33)
+#getBillsAndCoinsCount(8888.88)
+#getBillsAndCoinsCount(3333.33)

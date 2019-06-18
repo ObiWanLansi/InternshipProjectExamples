@@ -106,9 +106,9 @@ namespace Calendar
         {
             DateTime dt = DateTime.Now;
 
-            DisplayCalendar(dt.Year, dt.Month - 1);
+            //DisplayCalendar(dt.Year, dt.Month - 1);
             DisplayCalendar(dt.Year, dt.Month);
-            DisplayCalendar(dt.Year, dt.Month + 1);
+            //DisplayCalendar(dt.Year, dt.Month + 1);
 
             if (Debugger.IsAttached)
             {
