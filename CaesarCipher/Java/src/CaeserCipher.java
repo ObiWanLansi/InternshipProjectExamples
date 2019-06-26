@@ -1,17 +1,17 @@
 
 
 /**
- * Beispielimplementierung der Cäsar Verschlüsselung (ROT13) als Java
+ * Beispielimplementierung der Cï¿½sar Verschlï¿½sselung (ROT13) als Java
  * Konsolenprogramm.
  */
 public class CaeserCipher {
 
 
     /**
-     * Verschlüsselt oder Entschlüsselt den übergebenen Text.
+     * Verschlï¿½sselt oder Entschlï¿½sselt den ï¿½bergebenen Text.
      * 
-     * @param strContent Der zu ver- oder endschlüsselnte Text.
-     * @return Der ver- oder entschlüsselte Text.
+     * @param strContent Der zu ver- oder endschlï¿½sselnte Text.
+     * @return Der ver- oder entschlï¿½sselte Text.
      */
     static private String crypt_decrypt( String strContent ) {
 
@@ -29,7 +29,7 @@ public class CaeserCipher {
             } else {
 
                 if (bASCII == 32) {
-                    
+
                     sbNew.append((char) 32);
                 }
             }

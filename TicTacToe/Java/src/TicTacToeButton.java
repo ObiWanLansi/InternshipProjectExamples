@@ -9,6 +9,8 @@ import java.awt.geom.Ellipse2D;
 
 import javax.swing.JButton;
 
+
+
 /**
  * 
  * @author ObiWanLansi
@@ -16,76 +18,83 @@ import javax.swing.JButton;
  */
 public class TicTacToeButton extends JButton {
 
-	/**
-	 * 
-	 */
-	final private int iFieldIndex;
+    /**
+     * 
+     */
+    final private int iFieldIndex;
 
-	/**
-	 * 
-	 */
-	private Player p = null;
+    /**
+     * 
+     */
+    private Player    p = null;
 
-	/**
-	 * 
-	 * @param iFieldIndex
-	 * @param al
-	 */
-	public TicTacToeButton(int iFieldIndex, ActionListener al) {
 
-		this.iFieldIndex = iFieldIndex;
+    /**
+     * 
+     * @param iFieldIndex
+     * @param al
+     */
+    public TicTacToeButton( int iFieldIndex, ActionListener al) {
 
-		this.addActionListener(al);
-	}
+        this.iFieldIndex = iFieldIndex;
 
-	/**
-	 * 
-	 * @return
-	 */
-	public int getFieldIndex() {
-		return iFieldIndex;
-	}
+        this.addActionListener(al);
+    }
 
-	/**
-	 * 
-	 * @param p
-	 */
-	public void setPlayer(Player p) {
-		this.p = p;
-		repaint();
-	}
 
-	/**
-	 * 
-	 */
-	@Override
-	protected void paintComponent(Graphics g) {
-		super.paintComponent(g);
+    /**
+     * 
+     * @return
+     */
+    public int getFieldIndex() {
 
-		Graphics2D g2d = (Graphics2D) g;
+        return iFieldIndex;
+    }
 
-		Dimension dim = getSize();
 
-		if (p == null) {
+    /**
+     * 
+     * @param p
+     */
+    public void setPlayer( Player p ) {
 
-			return;
-		}
+        this.p = p;
+        repaint();
+    }
 
-		Shape s = null;
 
-		if (p == Player.One) {
+    /**
+     * 
+     */
+    @Override
+    protected void paintComponent( Graphics g ) {
 
-			g2d.setPaint(Color.BLUE);
+        super.paintComponent(g);
 
-			s = new Rectangle(5, 5, dim.width - 10, dim.height - 10);
+        Graphics2D g2d = (Graphics2D) g;
 
-		} else {
+        Dimension dim = getSize();
 
-			g2d.setPaint(Color.RED);
+        if (p == null) {
 
-			s = new Ellipse2D.Double(5, 5, dim.width - 10, dim.height - 10);
-		}
+            return;
+        }
 
-		g2d.fill(s);
-	}
+        Shape s = null;
+
+        if (p == Player.One) {
+
+            g2d.setPaint(Color.BLUE);
+
+            s = new Rectangle(5, 5, dim.width - 10, dim.height - 10);
+
+        } else {
+
+            g2d.setPaint(Color.RED);
+
+            s = new Ellipse2D.Double(5, 5, dim.width - 10, dim.height - 10);
+        }
+
+        g2d.fill(s);
+    }
 }
