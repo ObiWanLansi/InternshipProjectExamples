@@ -12,12 +12,12 @@ class BillOrCoin {
     /**
      * 
      */
-    final public int    Value;
+    public final int    Value;
 
     /**
      * 
      */
-    final public String DisplayName;
+    public final String DisplayName;
 
     /**
      * 
@@ -60,7 +60,7 @@ public class Geldrueckgeber {
      * Alle Münzen und Scheine mit ihrem Wert in Cent die wir zur Auszahlung
      * verwenden können.
      */
-    final private static ArrayList<BillOrCoin> lBillsAndCoins = new ArrayList<BillOrCoin>();
+    private final static ArrayList<BillOrCoin> lBillsAndCoins = new ArrayList<>();
 
     static {
 
@@ -98,11 +98,11 @@ public class Geldrueckgeber {
         // Umrechnen in einheitliche Basis Cent
         int iAmount = (int) (fAmount * 100);
 
-        ArrayList<BillOrCoin> lResult = new ArrayList<BillOrCoin>();
+        ArrayList<BillOrCoin> lResult = new ArrayList<>();
 
         for (BillOrCoin boc : lBillsAndCoins) {
 
-            int iCount = (int) (iAmount / boc.Value);
+            int iCount = iAmount / boc.Value;
 
             if (iCount > 0) {
 

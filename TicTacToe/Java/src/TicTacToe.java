@@ -26,7 +26,7 @@ public class TicTacToe extends JFrame {
     /**
      * The winner combinations.
      */
-    private final ArrayList<int[]>     lWinnerCombinations = new ArrayList<int[]>(8);
+    private final ArrayList<int[]>     lWinnerCombinations = new ArrayList<>(8);
 
     /**
      * The current player.
@@ -36,7 +36,7 @@ public class TicTacToe extends JFrame {
     /**
      * Wich field from which player.
      */
-    private Hashtable<Integer, Player> htFieldPlayer       = new Hashtable<Integer, Player>();
+    private Hashtable<Integer, Player> htFieldPlayer       = new Hashtable<>();
 
 
     // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -108,6 +108,7 @@ public class TicTacToe extends JFrame {
 
     // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
     /**
      * 
      * @param source
@@ -145,6 +146,7 @@ public class TicTacToe extends JFrame {
 
     // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
     /**
      *
      */
@@ -171,11 +173,13 @@ public class TicTacToe extends JFrame {
 
     // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
     /**
      * Haupteinstiegspunkt der Anwendung.
      * 
      * @param args
      */
+    @SuppressWarnings("unused")
     public static void main( String[] args ) {
 
         new TicTacToe();
