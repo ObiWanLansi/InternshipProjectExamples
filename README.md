@@ -54,6 +54,14 @@ https://de.wikipedia.org/wiki/Vier_gewinnt
 
 ---
 
+## [Rucksackproblem](./Rucksackproblem)
+
+Das Rucksackproblem ist ein Optimierungsproblem der Kombinatorik.
+
+https://de.wikipedia.org/wiki/Rucksackproblem
+
+---
+
 **Anmerkungen :**
 
 - Bei alle Spielen sollen jeweils nur zwei Benutzer gegeneinander Spielen, es wird kein Computer oder KI als Gegner benötigt.
@@ -69,26 +77,29 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 
 **Übersicht Sprachen / Projekte:**
 
-|Sprache     |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Tic Tac Toe|
-|------------|:-------------------:|:------:|:------:|:----------:|:-----------:|:---------:|
-|Python      |&#10005;             |&#10005;|&#9925; |&#10005;    |&#10004;     |&#10005;   |
-|Ruby        |&#10004;             |&#10005;|&#10005;|&#10005;    |&#10005;     |&#10005;   |
-|.net Core   |&#10005;             |&#10004;|&#10005;|&#10005;    |&#10005;     |&#10005;   |
-|.net WPF    |&#10005;             |&#10004;|&#10005;|&#10005;    |&#10005;     |&#10004;   |
-|Java Console|&#10004;             |&#10005;|&#10005;|&#10005;    |&#10004;     |&#10005;   |
-|Java SWING  |&#10005;             |&#10005;|&#10005;|&#9925;     |&#10005;     |&#10004;   |
-|C++ Console |&#10005;             |&#10005;|&#8986; |&#10005;    |&#10005;     |&#10005;   |
+|Sprache       |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Tic Tac Toe|Rucksackproblem|
+|--------------|:-------------------:|:------:|:------:|:----------:|:-----------:|:---------:|:-------------:|
+|Python        |&#10005;             |&#10005;|&#9925; |&#10005;    |&#10004;     |&#10005;   |&#9737;        |
+|Ruby          |&#10004;             |&#10005;|&#10005;|&#10005;    |&#10005;     |&#10005;   |&#9737;        |
+|.net Core     |&#10005;             |&#10004;|&#10005;|&#10005;    |&#10005;     |&#10005;   |&#9737;        |
+|.net WPF      |&#10005;             |&#10004;|&#10005;|&#10005;    |&#10005;     |&#10004;   |&#9737;        |
+|Java Console  |&#10004;             |&#10005;|&#10005;|&#10005;    |&#10004;     |&#10005;   |&#9737;        |
+|Java SWING    |&#10005;             |&#10005;|&#10005;|&#9925;     |&#10005;     |&#10004;   |&#9737;        |
+|C++ Console   |&#10005;             |&#10005;|&#8986; |&#10005;    |&#10005;     |&#10005;   |&#9737;        |
+|ANSI C Console|&#9737;              |&#9737; |&#9737; |&#9737;     |&#9737;      |&#9737;    |&#9737;        |
+|Web (HTML5/JS)|&#9737;              |&#9737; |&#9737; |&#9737;     |&#9737;      |&#9737;    |&#9737;        |
+|R             |&#9737;              |&#9737; |&#9737; |&#9737;     |&#9737;      |&#9737;    |&#9737;        |
 
 
 **Legende:**
 
-|Zeichen|Beschreibung|
-|:-:|-|
-|&#10004;|Ist fertig umgesetzt|
-|&#8986;|Umsetzung hat begonnen|
-|&#9925;|Wird (noch) umgesetzt|
-|&#10005;|Wird nicht umgesetzt|
-
+|Zeichen |Beschreibung          |
+|:------:|----------------------|
+|&#10004;|Ist fertig umgesetzt  |
+|&#8986; |Umsetzung hat begonnen|
+|&#9925; |Wird (noch) umgesetzt |
+|&#10005;|Wird nicht umgesetzt  |
+|&#9737; |Drüber nachdenken     |
 
 ---
 
