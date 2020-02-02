@@ -56,9 +56,19 @@ https://de.wikipedia.org/wiki/Vier_gewinnt
 
 ## [Rucksackproblem](./Rucksackproblem)
 
-Das Rucksackproblem ist ein Optimierungsproblem der Kombinatorik.
+Das Rucksackproblem ist ein Optimierungsproblem der Kombinatorik. Aus einer Menge von Objekten, die jeweils ein Gewicht und einen Nutzwert haben, soll eine Teilmenge ausgewählt werden, 
+deren Gesamtgewicht eine vorgegebene Gewichtsschranke nicht überschreitet. Unter dieser Bedingung soll der Nutzwert der ausgewählten Objekte maximiert werden.
 
 https://de.wikipedia.org/wiki/Rucksackproblem
+
+---
+
+## [Sierpinski-Dreieck](./SierpinskiDreieck)
+
+Das Sierpinski-Dreieck ist ein 1915 von Wacław Sierpiński beschriebenes Fraktal – mitunter auch Sierpinski-Fläche oder -Dichtung genannt, 
+welches eine selbstähnliche Teilmenge eines (meist gleichseitig dargestellten) Dreiecks ist.
+
+https://de.wikipedia.org/wiki/Sierpinski-Dreieck
 
 ---
 

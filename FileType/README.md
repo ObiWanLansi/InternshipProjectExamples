@@ -4,3 +4,5 @@ Es soll der mögliche Dateityp einer Datei anhand der ersten N-Bytes und nicht a
 Dateierweiterung bestimmt werden.
 
 https://de.wikipedia.org/wiki/File
+
+---
