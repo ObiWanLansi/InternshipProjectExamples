@@ -93,7 +93,7 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 
 **Übersicht Sprachen / Projekte:**
 
-|Sprache       |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Tic Tac Toe|Rucksackproblem|Sierpinski Dreieck|Kleines Einmal Eins|
+|Sprache       |Cäsar Verschlüsselung|Kalendar|FileType|Vier gewinnt|Geldrückgeber|Tic Tac Toe|Rucksack Problem|Sierpinski Dreieck|Kleines Einmal Eins|
 |--------------|:-------------------:|:------:|:------:|:----------:|:-----------:|:---------:|:-------------:|:----------------:|:-----------------:|
 |Python        |&#10005;             |&#10005;|&#9925; |&#10005;    |&#10004;     |&#10005;   |&#9737;        |&#9737;           |&#10004;           |
 |Ruby          |&#10004;             |&#10005;|&#10005;|&#10005;    |&#10005;     |&#10005;   |&#9737;        |&#9737;           |&#9737;            |
