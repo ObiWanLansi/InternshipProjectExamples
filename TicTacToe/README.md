@@ -6,12 +6,12 @@ https://de.wikipedia.org/wiki/Tic-Tac-Toe
 
 ---
 
-# DotNet
+## DotNet
 
 ![TicTacToe DotNet](./DotNet/Screenshot/TicTacToe.png)
 
 ---
 
-# Java
+## Java
 
 ![TicTacToe Java](./Java/Screenshot/TicTacToe.png)

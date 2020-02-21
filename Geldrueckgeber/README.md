@@ -9,6 +9,7 @@ die Auflistung aller benötigten Scheine, Münze und deren Anzahl ausgeben soll.
 
 ```console
 lansi@Jupiter:~/InternshipProjectExamples/Geldrueckgeber/Java/bin$ java Geldrueckgeber 
+
 Betrag: 123.45 €
 Hundert Euro        : 1 (100.0) €
 Zwanzig Euro        : 1 ( 20.0) €
@@ -24,6 +25,7 @@ Fünf Cent           : 1 ( 0.05) €
 
 ```console
 lansi@Jupiter:~/InternshipProjectExamples/Geldrueckgeber/Python$ python Geldrueckgeber.py
+
 Betrag: 543.21 €
 Fünfhundert Euro    : 1
 Zwanzig Euro        : 2

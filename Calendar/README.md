@@ -6,10 +6,11 @@ https://de.wikipedia.org/wiki/Cal_(Unix)
 
 ---
 
-# DotNet Core
+## DotNet Core
 
 ```console
 lansi@Jupiter:~/InternshipProjectExamples/Calendar/DotNet/Console$ dotnet run
+
 ┌───────────────────────────┐
 │                 Juni 2019 │
 ├────┬──────────────────────┤
@@ -25,6 +26,6 @@ lansi@Jupiter:~/InternshipProjectExamples/Calendar/DotNet/Console$ dotnet run
 
 ---
 
-# DotNet WPF
+## DotNet WPF
 
 ![Calendar WPF](./DotNet/WPF/Screenshot/Calendar.png)
