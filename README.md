@@ -1,4 +1,4 @@
-# InternshipProjectExamples
+# Internship Project Examples
 
 Hier sind lauter kleine Projekte für Praktikanten in dem und aus dem Bereich Softwareentwicklung. Die Projekte sollten je nach Können des Praktikanten und dem Umfang der Implementierung innerhalb (hoffentlich) einer Praktikumswoche umgesetzt werden können.
 
