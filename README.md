@@ -122,5 +122,6 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 
 ## Backlog
 
+- Ein kleines [Memoryspiel](https://de.wikipedia.org/wiki/Memory_(Spiel)) (GUI)
 - Geldrückgeber in Octave oder R
 - Kalendar in C++/QT
