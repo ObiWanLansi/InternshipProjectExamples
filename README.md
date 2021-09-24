@@ -97,6 +97,11 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 - Schöner und besser geht bestimmt immer, aber es muss auch einfach bleiben damit es auch Praktikanten verstehen können.
 - Der Beispielcode ist nur auf das nötigste dokumentiert, der Praktikant sollte es natürlich besser machen.
 
+<!--
+
+Die Übersich wurde einfach zu groß und war nicht mehr übersichtlich.
+Und immer mitzupflegen wurde auch schnell vergessen.
+
 ---
 
 **Übersicht Sprachen / Projekte:**
@@ -134,3 +139,5 @@ können in einer Datei (csv,json,xml,sqlite) gespeichert werden.
 - Ein kleines [Memoryspiel](https://de.wikipedia.org/wiki/Memory_(Spiel)) (GUI)
 - Geldrückgeber in Octave oder R
 - Kalendar in C++/QT
+  
+-->
